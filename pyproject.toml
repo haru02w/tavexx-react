@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tavexx-backend"
+version = "0.1.0"
+description = ""
+authors = ["Haru02w <haru02w@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.6"
+djangorestframework = "^3.15.2"
+
+[tool.poetry.group.dev.dependencies]
+django-types = "^0.19.1"
+djangorestframework-types = "^0.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
